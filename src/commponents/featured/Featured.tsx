@@ -38,7 +38,7 @@ const Featured = () => {
 		<section
 			aria-label='featured'
 			style={{ boxShadow: " 0px 0px 10px -7px rgba(66, 68, 90, 1)" }}
-			className='grid grid-cols-4  container mx-auto mt-6  py-5 rounded-xl px-10 '>
+			className='grid grid-cols-4  container mx-auto mt-6  py-5 rounded-xl px-10  '>
 			{featured.map(item => (
 				<Category key={item.name} {...item} />
 			))}

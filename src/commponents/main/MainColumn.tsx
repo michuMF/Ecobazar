@@ -1,5 +1,6 @@
+import Button from "../../UI/Button"
 import bannerBig from "../../assets/main/Bannar Big.png"
-import { GoArrowRight } from "react-icons/go"
+
 const MainColumn = () => {
 	return (
 		<div
@@ -21,9 +22,7 @@ const MainColumn = () => {
 					</h3>
 					<p className='text-xs font-thin'>Free shipping an all your order</p>
 				</div>
-				<button className='bg-white text-primary flex-center gap-2 rounded-full px-7 py-3'>
-					Shop Now <GoArrowRight />
-				</button>
+				<Button text='text-primary' background='bg-white' padding='px-7 py-3' />
 			</div>
 		</div>
 	)

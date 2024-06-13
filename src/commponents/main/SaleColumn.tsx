@@ -1,5 +1,5 @@
-import { GoArrowRight } from "react-icons/go"
 import bannerSale from "../../assets/main/Banner-sales.png"
+import Button from "../../UI/Button"
 const SaleColumn = () => {
 	return (
 		<div
@@ -17,9 +17,7 @@ const SaleColumn = () => {
 				</h2>
 				<p className='text-xs text-gray-6 mt-3 mb-6'>Only Fruit & Vegetables</p>
 
-				<button className='flex-center gap-2  font-semibold  text-primary'>
-					Shop Now <GoArrowRight className='text-2xl' />
-				</button>
+				<Button text='text-primary' className='flex-center gap-2   ' />
 			</div>
 		</div>
 	)

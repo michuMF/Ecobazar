@@ -2,7 +2,7 @@ import { FeaturedProps } from "./Featured"
 
 const Category = ({ icon, name, info }: FeaturedProps) => {
 	return (
-		<div className='flex-center gap-4'>
+		<div className='flex-center gap-4 '>
 			<img src={icon} alt={name} />
 			<div>
 				<h3 className='text-lg font-semibold text-gray-9'>{name}</h3>
